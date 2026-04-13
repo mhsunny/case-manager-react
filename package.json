@@ -1,0 +1,47 @@
+{
+  "name": "caseflowreactapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "homepage": ".",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
+    "@mui/icons-material": "6.5.0",
+    "@mui/material": "6.5.0",
+    "@mui/x-charts": "^7.27.1",
+    "@mui/x-data-grid": "8.11.3",
+    "@mui/x-date-pickers": "8.11.3",
+    "crypto-es": "2.1.0",
+    "dayjs": "1.11.7",
+    "lodash": "4.17.21",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-error-boundary": "4.0.4",
+    "react-router-dom": "7.9.6",
+    "rxjs": "7.8.1",
+    "xlsx": "^0.18.5",
+    "zustand": "5.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.4.0",
+    "sass": "^1.99.0",
+    "vite": "^8.0.4"
+  }
+}
